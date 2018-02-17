@@ -38,3 +38,11 @@ main section {
     width: 100%;
     box-sizing: border-box;
 }
+#themeChanger {
+    width: 200px;
+    border: solid red 2px;
+    user-select: none;
+}
+#themeChanger:hover {
+    cursor: pointer;
+}
