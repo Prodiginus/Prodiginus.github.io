@@ -206,15 +206,6 @@ nav a:hover::after {
     flex-flow: column;
     position: relative;
 }
-.top input {
-    margin: 20px;
-    height: 30px;
-    width: 200px;
-}
-.bottom input {
-    margin: 20px;
-    height: 30px;
-}
 form input[type="button"] {
     position: absolute;
     bottom: 10px;
@@ -226,16 +217,4 @@ form input[type="button"] {
     color: #ddd;
     background-color: var(--accent);
 }
-form input[type="button"]:hover {
-    background-color: blue;
-}
-form input[type="button"]:active {
-    border:solid 2px red;
-}
-.top input[type="text"] {
-}
-.bottom input[type="text"] {
-
-}
-.bottom input {}
 /* footer styling */
