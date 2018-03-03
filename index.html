@@ -1,35 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- meta -->
+    <!-- general meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- general seo -->
+    <meta name="author" content="Daniel Belousov">
+    <meta name="description" content="Freelance web developer/designer, based in Vancouver WA. I produce high quality and responsive websites for the ever expanding web.">
+    <meta name="keywords" content="web developer vancouver, web designer vancouver, website creator vancouver, website developer vancouver, freelance developer vancouver">
+    <!-- facebook seo -->
+    <meta property="og:title" content="Daniel's Portfolio - Web Developer">
+    <meta property="og:description" content="Freelance web developer for the Vancouver WA area. I provide high quality and responsive websites">
+    <meta property="og:image" content="/assets/me.jpg">
+    <!-- links -->
+    <link rel="shortcut icon" href="assets/favicon.png">
     <!-- font imports -->
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Oxygen|Satisfy"> 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="css/main.css">
-    <title>Daniel's Portfolio</title>
+    <link rel="stylesheet" href="css/main-dist.css">
+    <title>Daniel's Portfolio - Web Developer/Designer</title>
 </head>
-<body class="theme-light">
+<body>
     <nav>
-
+        <h1>Daniel Belousov</h1>
+        <ul>
+            <li>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </ul>
     </nav>
     <main>
-        <section class="maincontainer">
-            oof
-            <div id="themeChanger">Click me to change to dark theme</div>
+        <section class="hero">
+            <h1>Daniel Belousov</h1>
+            <div class="details">Web Developer | Themer | Creative</div>
+            <a href="#about">Learn about me</a>
         </section>
-        <section class="maincontainer">
-
+        <section class="about">
+            <a id="about"></a>
+            <div class="picture">
+                <img src="assets/me.jpg" alt="Me just sitting in my car" title="Me just sitting in my car">
+            </div>
+            <div class="info">
+                <h2>About Me</h2>
+                <p>I'm a college student going for my bachelors in Computer Science</p>
+            </div>
         </section>
-        <section class="maincontainer">
-
+        <section class="projects">
+            <a id="projects"></a>
+            <h1>Projects</h1>
+            <div class="wrapper">
+                <div class="project">
+                    <img src="" alt="">
+                    <div class="title"><a href="/pages/redesign1/index.html">AnimeNova.org Re-Skin</a></div>
+                    <div class="description">I watch anime on this site so I decided to style it to make it easier on the eyes.</div>
+                </div>
+                <div class="project">
+                    <img src="" alt="">
+                    <div class="title"><a href="">Reddit Re-Skin</a></div>
+                    <div class="description">Reddit is one of the ugliest sites on the web, I decided to give it a makeover.</div>
+                </div>
+                <div class="project">
+                    <img src="" alt="">
+                    <div class="title"><a href="">Clark College Dark</a></div>
+                    <div class="description">I thought the Clark College Webpage could use a dark theme.</div>
+                </div>
+                <div class="project">
+                    <img src="" alt="">
+                    <div class="title"><a href="">Canvas Dark</a></div>
+                    <div class="description">Thought a dark theme for a website that students use a lot late at night might be helpful.</div>
+                </div>
+            </div>
         </section>
-        <section class="maincontainer">
-            
+        <section class="contact">
+            <a id="contact"></a>
         </section>
     </main>
-    <script src="js/main.js"></script>
+    <footer>
+        <div class="social"></div>
+        <div class="links"></div>
+        <div class="copyright"></div>
+    </footer>
+    <script src="js/main-dist.js"></script>
 </body>
 </html>
