@@ -1,1 +1,0 @@
-"use strict";var body=document.body;
